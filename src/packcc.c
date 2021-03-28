@@ -4538,7 +4538,7 @@ static void print_version(FILE *output) {
     fprintf(output, "Copyright (c) 2014, 2019-2021 Arihiro Yoshida. All rights reserved.\n");
 }
 
-static void print_usage(FILE *output) {
+static void print_usage(FILE* output) {
     fprintf(output, "Usage: %s [OPTIONS] [FILE]\n", g_cmdname);
     fprintf(output, "Generates a packrat parser for C.\n");
     fprintf(output, "\n");
